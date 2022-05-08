@@ -15,7 +15,7 @@ const VALUES = [
   "K"
 ]
 
-export default class Deck {
+class Deck {
   constructor(cards = freshDeck()) {
     this.cards = cards
   }
